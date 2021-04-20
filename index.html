@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>Products</h1>
+        <ul id="products">
+            <li>
+                <div class="product-name">product1</div>
+                <div class="price"><span>12</span> UAH</div>
+                <div class="delete" onclick="removeElem(this)">Delete product</div>
+            </li>
+            <li>
+                <div class="product-name">product2</div>
+                <div class="price"><span>120</span> UAH</div>
+                <div class="delete" onclick="removeElem(this)">Delete product</div>    
+            </li>
+            <li>
+                <div class="product-name">product3</div>
+                <div class="price"><span>1</span> UAH</div>
+                <div class="delete" onclick="removeElem(this)">Delete product</div>    
+            </li>
+            <li>
+                <div class="product-name">product4</div>
+                <div class="price"><span>55</span> UAH</div>
+                <div class="delete" onclick="removeElem(this)">Delete product</div>   
+            </li>
+            <li>
+                <div class="product-name">product5</div>
+                <div class="price"><span>66</span> UAH</div>
+                <div class="delete" onclick="removeElem(this)">Delete product</div>
+            </li>
+        </ul>
+        Summary: <b id="summary"></b>   
+        <br>
+        Count: <b id="count"></b>
+        <br>
+        <button class="new__product">Новый рандомный товар</button>
+        <br>
+        <script src="script.js"></script>
+    </body>
+</html>
