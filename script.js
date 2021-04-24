@@ -1,4 +1,4 @@
-getReuslt()
+getReuslt();
 function removeElem(elem) {
     const parentElem = elem.parentElement;
     parentElem.remove();
